@@ -3,10 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculadora.Ejercicio">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="0,0,0,0"
+                     Spacing="0"
+                     BackgroundColor="DarkBlue"
+                     <BoxView BackgroundColor="Azure"
+                              HeightRequest="1">
+            </BoxView>
+            <Label Text=""
+                   VerticalOptions="Fill"
+                   BackgroundColor="BlueViolet"
+                   HeightRequest="100">
+            </Label>
+            <Button WidthRequest="100" 
+                    HeightRequest="100"
+                    BorderRadius="50" 
+                    HorizontalOptions="Center"
+                    BackgroundColor="Azure">
+
+            </Button>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
